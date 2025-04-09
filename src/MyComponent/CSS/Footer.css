@@ -1,0 +1,35 @@
+/* ============================================
+   FOOTER STYLING
+   Defines the appearance of the page footer.
+============================================ */
+.footer {
+    background-color: palevioletred; /* Footer background color */
+    color: white; /* Text color */
+    padding: 15px; /* Inner space for breathing room */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Consistent font */
+    text-align: center; /* Centered text */
+    display: block; /* Ensures full-width block-level layout */
+    width: 100%; /* Full width of the page */
+    font-size: 22px; /* Font size for readability */
+}
+
+
+/* ============================================
+   PRE TAG HOVER EFFECT
+   Changes text color when hovering over <pre> blocks.
+============================================ */
+pre:hover {
+    color: rgb(200, 237, 246); /* Light blue hover color */
+}
+
+
+/* ============================================
+   SOCIAL/ICON IMAGE STYLING
+   Common icon style — used in footers or navbars.
+============================================ */
+.img {
+    height: 35px;
+    width: 35px;
+    border-radius: 6px; /* Slightly rounded corners for style */
+    margin: 10px; /* Space around each icon */
+}

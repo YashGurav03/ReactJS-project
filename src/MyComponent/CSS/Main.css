@@ -1,0 +1,87 @@
+/*===========================
+    General Image Styling
+===========================*/
+.image {
+    height: 410px;
+    width: 100%; /* Full width of the parent */
+}
+
+/*===========================
+    Container Box Styling
+===========================*/
+.container {
+    background-color: white;
+    border: 2px solid palevioletred;
+    border-radius: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    height: 630px;
+    width: 350px;
+    margin: 10px; /* Spacing around each container */
+    padding: 10px; /* Inner spacing */
+    box-shadow: 
+        0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+        0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Shadow effect */
+}
+
+/*===========================
+    Inner Image Box Styling
+===========================*/
+.imgbox {
+    height: 300px;
+    width: 280px;
+    border-radius: 7%; /* Rounded corners */
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* Center the image */
+    padding: 8px;
+}
+
+/*===========================
+    Button Styling
+===========================*/
+.btn {
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    font-size: 25px; /* Enlarged text */
+    background-color: lightpink;
+    color: white;
+    border: 1px solid blue;
+}
+
+/*===========================
+    Large Image Sections
+===========================*/
+
+/* NOTE: These classes have the same styling — consider combining them into one class */
+
+.image1,
+.image2,
+.image3,
+.image4 {
+    height: 600px;
+    width: 713px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin: 20px;
+}
+
+/*===========================
+    Full-width Photos
+===========================*/
+#photo,
+#photo1,
+#photo2 {
+    height: 500px;
+    width: 100%; /* Full width of container */
+}

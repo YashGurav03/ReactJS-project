@@ -1,0 +1,67 @@
+/* ===============================
+   Global Reset & Base Styles
+================================= */
+* {
+    margin: 0;                  /* Removes default margin */
+    padding: 0;                 /* Removes default padding */
+    box-sizing: border-box;    /* Includes padding & border in element's total size */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Global font */
+}
+
+
+/* ===============================
+   Navbar Container Styling
+================================= */
+.navbar {
+    display: flex;                         /* Arrange children in a row */
+    justify-content: space-between;       /* Space between logo and nav links */
+    padding: 13px;                         /* Inner spacing */
+    background-color: palevioletred;      /* Background color */
+    align-items: center;                  /* Vertically center items */
+}
+
+
+/* ===============================
+   Navigation Links List Styling
+================================= */
+.nav-links {
+    list-style: none;     /* Remove default bullets */
+    display: flex;        /* Arrange nav items in a row */
+}
+
+
+/* ===============================
+   Individual List Items
+================================= */
+.nav-links li {
+    margin: 0 17px;       /* Horizontal spacing between links */
+}
+
+
+/* ===============================
+   Logo Styling
+================================= */
+.logo {
+    color: white;         /* White text */
+    font-size: 40px;      /* Larger font for branding */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Matching font */
+}
+
+
+/* ===============================
+   Link Styling
+================================= */
+.nav-links a {
+    color: white;              /* White text */
+    text-decoration: none;     /* Remove underline */
+    font-size: 25px;           /* Slightly larger font */
+    transition: 0.3s;          /* Smooth transition on hover */
+}
+
+
+/* ===============================
+   Link Hover Effect
+================================= */
+.nav-links a:hover {
+    color: rgb(200, 237, 246);  /* Light blue on hover */
+}
